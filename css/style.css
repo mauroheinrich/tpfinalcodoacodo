@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* .color1 { #c3b934 };
+.color2 { #87b2d8 };
+.color3 { #234a62 };
+.color4 { #71afa6 };
+.color5 { #bba289 }; */
+
+:root{
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+    --menu-color: rgba(255, 255, 255, .55);
+}
+
+h1{
+    color: var(--gray-200);
+    background-color:#343a40;
+}
