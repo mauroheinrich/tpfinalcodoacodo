@@ -337,8 +337,11 @@
 
 .tickets .container-tickets {
   width: 90%;
+  height: 100vh;
   max-width: 800px;
   margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100vh;
 }
 
 .tickets-category {
@@ -365,7 +368,7 @@
 .junior:hover {
   transform: scale(0.97);
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
-
+  background-color:var(--gray-300) ;
 }
 
 .tickets-category h2 {
